@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lancer & Kyle Electricians</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #111; color: white; margin: 0; padding: 20px; }
+        header { text-align: center; margin-bottom: 30px; }
+        header img { width: 150px; }
+        h1 { color: #4DA1FF; }
+        section { margin-bottom: 40px; }
+        iframe { width: 100%; height: 300px; border: 0; }
+        form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; }
+        form button { padding: 10px 20px; background: #4DA1FF; border: none; color: white; font-size: 16px; }
+        .gallery img { width: 100%; max-width: 300px; margin: 10px; border: 2px solid #4DA1FF; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Lancer & Kyle Logo">
+        <h1>Lancer & Kyle Electricians</h1>
+        <p>Wired for Excellence</p>
+    </header>
+
+    <section>
+        <h2>About</h2>
+        <p>I'm Kyle Aitchison, founder of Lancer & Kyle. With over 6 years of experience, I’ve started this company to serve the local area with honest, reliable electrical work.</p>
+    </section>
+
+    <section>
+        <h2>Services</h2>
+        <ul>
+            <li>Domestic & Commercial Work</li>
+            <li>Full Rewires</li>
+            <li>Lighting Installations</li>
+            <li>Garden Lighting Specialists</li>
+            <li>CCTV Setup</li>
+        </ul>
+    </section>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="photo1.jpeg" alt="Garden lighting">
+        <img src="photo2.jpeg" alt="Commercial work">
+    </section>
+
+    <section>
+        <h2>Service Area</h2>
+        <p>Serving up to 35 miles from Kippen, Scotland</p>
+        <iframe src="https://www.google.com/maps?q=kippen+scotland&output=embed"></iframe>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <form action="mailto:lancerandkyle@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <input type="text" name="Job Type" placeholder="Type of Job">
+            <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Call us: 07723917717</p>
+    </section>
+</body>
+</html>
